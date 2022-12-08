@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 
-function Review(props) {
+function Review() {
   return (
     <p>Review component</p>
   )
 
 
 }
-export default Review
+export default Review;

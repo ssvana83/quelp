@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 
 function NewReviewForm(props) {
@@ -8,4 +8,4 @@ function NewReviewForm(props) {
 
 
 }
-export default NewReviewForm
+export default NewReviewForm;

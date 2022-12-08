@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 
 function ReviewsList(props) {
@@ -8,4 +8,4 @@ function ReviewsList(props) {
 
 
 }
-export default ReviewsList
+export default ReviewsList;

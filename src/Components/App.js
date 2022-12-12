@@ -21,11 +21,10 @@ function App() {
 
   }, [])
 
-  
   return (
-    
     <div className="App">
       <h1>Quelp</h1>
+      <hr />
       <h3>Reviews for Top Restaurants in your Area</h3>
       <Router>
           <Navbar />
@@ -45,7 +44,6 @@ function App() {
           </Switch>
       </Router>
     </div>
-   
   );
 }
 

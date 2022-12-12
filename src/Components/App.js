@@ -10,6 +10,7 @@ import ReviewsList from './ReviewsList';
 import Navbar from './Navbar';
 
 
+
 function App() {
   const [reviews, setReviews] = useState([]);
 
@@ -22,6 +23,7 @@ function App() {
 
   
   return (
+    
     <div className="App">
       <h1>Quelp</h1>
       <h3>Reviews for Top Restaurants in your Area</h3>
@@ -43,6 +45,7 @@ function App() {
           </Switch>
       </Router>
     </div>
+   
   );
 }
 

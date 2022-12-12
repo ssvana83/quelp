@@ -8,6 +8,7 @@ import NewReviewForm from './NewReviewForm';
 import Review from './Review';
 import ReviewsList from './ReviewsList';
 import Navbar from './Navbar';
+import Header from './Header';
 
 
 
@@ -23,9 +24,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Quelp</h1>
+      <Header />
+      <h3>Reviews of Restaurants in your Area</h3>
       <hr />
-      <h3>Reviews for Top Restaurants in your Area</h3>
       <Router>
           <Navbar />
           <Switch>

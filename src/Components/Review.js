@@ -16,6 +16,9 @@ function Review({ reviews }) {
       <h3>{foundReview.restaurant}</h3>
       <p>{foundReview.rating} ⭐️</p>
       <p>{foundReview.content}</p>
+      
+      
+      
 
 
     </div>

@@ -17,27 +17,18 @@ function Navbar() {
       <NavLink
         to="/"
         style={linkStyles}
-        activestyle={{
-        background: "darkblue",
-        }}
       >
         All Reviews
       </NavLink>
       <NavLink
         to="reviews/new"
         style={linkStyles}
-        activestyle={{
-        background: "darkblue",
-        }}
       >
         Create a New Review
       </NavLink>
       <NavLink 
         to="reviews/:id"
         style={linkStyles}
-        activestyle={{
-        background: "darkblue",
-        }}
       > Reviews  
       </NavLink>
     </div>
